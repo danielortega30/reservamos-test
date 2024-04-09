@@ -1,0 +1,86 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    max-width: 40rem;
+}
+
+.form__header{
+    font-size: 1rem;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.form__label{
+    font-size: 1rem;
+}
+
+.form__input {
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    background-color: rgb(233, 233, 233);
+}
+
+.form__suggestions-content{
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 1rem;
+   justify-content: center;
+}
+
+.form_suggestions-title{
+   display: block;
+   margin-bottom: 1rem;
+}
+
+
+
+.form__suggestions-item{
+    margin-right: 1rem;
+    padding: 1rem;
+    border: 0.1rem #03A9F4 solid;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.form__suggestions-item:hover{
+    color: white;
+    background-color: #03A9F4;
+}
+
+
+.button-submit {
+    border:  none;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    background-color: #03A9F4;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    align-self: flex-end;
+    width: 10rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-submit:hover {
+    background-color: #2cbcff;
+}
+
+.button-submit:disabled {
+    background-color: #03A9F4;
+    opacity: 0.5;
+    cursor: default;
+}
