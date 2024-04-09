@@ -17,23 +17,23 @@ E-mail: danielortegacareaga@gmail.com
 1. Clone the repo:
 
 ```shell
-$ git clone https://github.com/danielortega30/reservamos-test.git
+git clone https://github.com/danielortega30/reservamos-test.git
 ```
 
 2. Open the project
 
 ```shell
-$ cd reservamos-test
+cd reservamos-test
 ```
 
 3. Install dependencies
 
 ```shell
-$ npm i
+npm i
 ```
 
 4. Run project
 
 ```shell
-$ npm run dev
+npm run dev
 ```
