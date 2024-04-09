@@ -38,7 +38,7 @@ npm i
 npm run dev
 ```
 
-4. Open the localhost showed in the terminal
+5. Open the localhost showed in the terminal
 
 ```shell
 http://localhost:5173/
